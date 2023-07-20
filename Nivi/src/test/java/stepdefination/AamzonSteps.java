@@ -44,4 +44,13 @@ public class AamzonSteps {
         SearchResultPage.clickSort();
         SearchResultPage.sortBy(1);
     }
+
+    @When("user add the product")
+    public void userAddTheProduct() {
+        
+    }
+
+    @Then("verify the kart message")
+    public void verifyTheKartMessage() {
+    }
 }
